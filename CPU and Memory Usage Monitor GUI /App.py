@@ -20,6 +20,6 @@ while True:
 
 
     window.FindElement('_textCPU_').Update(f'CPU {cpu_percent:02.0f}%')
-    window.FindElement('_textMemory_').Update(f'{usedMemoryInMBs:02.0f}/{totaldMemoryInMBs}MB')
+    window.FindElement('_textMemory_').Update(f'Memory {usedMemoryInMBs:02.0f}/{totaldMemoryInMBs}MB')
 
     
